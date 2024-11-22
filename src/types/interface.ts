@@ -5,3 +5,9 @@ export interface NotFound {
     buttonText?: string,
     buttonUrl?: string,
 }
+
+export interface Blog {
+    title: string,
+    content: string,
+    date: string,
+}

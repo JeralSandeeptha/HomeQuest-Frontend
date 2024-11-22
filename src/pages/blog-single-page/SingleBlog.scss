@@ -1,0 +1,47 @@
+@import '../../styles/breakpoints';
+@import '../../styles/colors';
+@import '../../styles/fonts';
+@import '../../styles/spacing';
+
+.single-blog {
+    width: 100%;
+    min-height: 100vh;
+    padding: 5% 5% 5% 5%;
+    font-family: $primary-font;
+
+    .single-blog-inner {
+        max-width: $max-width;
+        margin: 0 auto;
+        min-height: 100vh;
+
+        @media screen and (max-width: 780px) {
+            max-width: 400px;
+        }
+    }
+}
+
+.image {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.header {
+
+}
+
+.subheader {
+
+}
+
+.para {
+
+}
+
+.code {
+    border-radius: 0.25rem;
+    display: flex;
+    align-items: center;
+    padding: 5%;
+    justify-content: center;
+    background-color: rgb(243, 243, 243);
+}
